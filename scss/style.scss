@@ -2,7 +2,9 @@
 
 @import "null";
 @import "var";
-
+html {
+	height: 100%;
+}
 body {
 	font-family: $DMSans;
 	font-weight: 400;
@@ -14,7 +16,7 @@ body {
 }
 .wrapper {
 	background-color: #f5ede7;
-	min-height: 100%;
+	min-height: 100vh;
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
@@ -58,8 +60,17 @@ body {
 	color: #0126de;
 	border: 1px solid #0126de;
 }
+
+.page__fullscreen {
+	min-height: 100vh;
+	background-color: red;
+	font-size: 50px;
+	background: url("../img/main/fullscreen.jpg") center/cover no-repeat fixed;
+}
 @import "header";
 @import "hero";
 @import "how-it-works";
-
 @import "advertising";
+@import "catalog";
+@import "advantages";
+@import "news-preview";

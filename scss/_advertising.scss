@@ -12,17 +12,17 @@
 
 	&__image {
 		flex: 0 1 680px;
-
 		border-radius: 20px;
 		padding-bottom: 40%;
 		overflow: hidden;
 	}
 	&__body {
-		max-width: 649px;
+		flex: 0 1 649px;
+		//max-width: 649px;
 		display: flex;
 		flex-direction: column;
 		align-items: start;
-		padding-left: 10px;
+		padding-left: 48px;
 	}
 
 	&__text {

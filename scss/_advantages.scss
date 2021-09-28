@@ -1,0 +1,53 @@
+.page {
+	&__advantages {
+	}
+}
+.advantages {
+	padding: 16px 0;
+	&__container {
+	}
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		margin: 0 -15px;
+	}
+
+	&__column {
+		flex: 0 1 33.333%;
+		padding: 25px;
+		border-radius: 10px;
+		border: 1px solid #999490;
+		margin: 0 15px;
+	}
+
+	&__item {
+	}
+}
+
+.item-advantages {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	&__image {
+		align-self: stretch;
+		border-radius: 10px;
+		overflow: hidden;
+		padding: 0 0 66.5% 0;
+		margin-bottom: 15px;
+	}
+
+	&__body {
+	}
+
+	&__value {
+		font-family: $Roboto;
+		font-size: 57px;
+		line-height: 120%;
+		margin-bottom: 20px;
+	}
+
+	&__text {
+		line-height: 156%;
+	}
+}
