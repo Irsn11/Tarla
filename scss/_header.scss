@@ -1,0 +1,52 @@
+.header {
+	&__container {
+		display: flex;
+		align-items: end;
+	}
+
+	&__logo {
+		margin: 16px 0px 16.22px;
+		width: 139, 16px;
+		height: 54, 02px;
+	}
+
+	&__menu {
+		flex: 1 1 auto;
+		margin: 0px 0px 21.22px;
+	}
+
+	&__body {
+		display: flex;
+		line-height: 150%;
+		& > *:not(:last-child) {
+			margin-right: 6px;
+		}
+	}
+
+	&__log-in {
+		padding-top: 40px;
+		background: url("../img/icons/log-in.svg") top center no-repeat;
+	}
+
+	&__cart {
+		padding-top: 40px;
+		background: url("../img/icons/cart.svg") top center no-repeat;
+	}
+}
+
+.memu {
+	&__list {
+		display: flex;
+	}
+}
+.menu {
+	&__item {
+		margin-left: 16px;
+	}
+
+	&__link {
+		font-size: 16px;
+		line-height: 80%;
+		text-transform: uppercase;
+	}
+}

@@ -1,0 +1,34 @@
+.page {
+	&__advertising {
+	}
+}
+.advertising {
+	padding: 48px 0;
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__image {
+		flex: 0 1 680px;
+
+		border-radius: 20px;
+		padding-bottom: 40%;
+		overflow: hidden;
+	}
+	&__body {
+		max-width: 649px;
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		padding-left: 10px;
+	}
+
+	&__text {
+		font-size: 40px;
+		line-height: 140%;
+		margin-bottom: 23px;
+		text-align: left;
+	}
+}

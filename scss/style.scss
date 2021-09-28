@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto&display=swap");
+
+@import "null";
+@import "var";
+
+body {
+	font-family: $DMSans;
+	font-weight: 400;
+	letter-spacing: 0.2px;
+	font-size: 18px;
+	height: 100%;
+	line-height: 1;
+	color: #000;
+}
+.wrapper {
+	background-color: #f5ede7;
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+._container {
+	max-width: 1438px;
+	margin: 0px auto;
+	padding: 0px 15px;
+	box-sizing: content-box;
+}
+.page {
+	flex: 1 1 auto;
+}
+._ibg {
+	position: relative;
+
+	img {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		object-fit: cover;
+	}
+}
+.btn {
+	display: flex;
+	min-width: 310px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #000;
+	border-radius: 35px;
+	font-size: 22px;
+	line-height: 155%;
+	text-align: center;
+	padding: 11px 73px;
+}
+.btn-blue {
+	color: #0126de;
+	border: 1px solid #0126de;
+}
+@import "header";
+@import "hero";
+@import "how-it-works";
+
+@import "advertising";
