@@ -1,0 +1,66 @@
+.footer {
+	&__container {
+		padding: 65px 0;
+	}
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: start;
+		margin-bottom: 66px;
+		margin: 0 -15px;
+	}
+
+	&__logo {
+	}
+
+	&__column {
+		padding: 0 15px;
+	}
+
+	&__item {
+	}
+
+	&__title {
+		font-size: 23px;
+		line-height: 157%;
+		margin-bottom: 23px;
+	}
+
+	&__social {
+	}
+	&__bottom {
+		font-size: 14px;
+		line-height: 171%;
+	}
+}
+.item-footer {
+}
+.item-footm {
+	&__title {
+		font-family: $Roboto;
+		font-size: 22px;
+		line-height: 164%;
+		margin-bottom: 23px;
+	}
+
+	&__menu {
+	}
+
+	&__list {
+	}
+
+	&__item {
+		&:not(:last-child) {
+			margin-bottom: 4px;
+		}
+	}
+
+	&__link {
+		font-size: 16px;
+		line-height: 150%;
+		text-transform: uppercase;
+	}
+}
+.social {
+}

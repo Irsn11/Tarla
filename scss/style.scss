@@ -63,7 +63,6 @@ body {
 
 .page__fullscreen {
 	min-height: 100vh;
-	background-color: red;
 	font-size: 50px;
 	background: url("../img/main/fullscreen.jpg") center/cover no-repeat fixed;
 }
@@ -74,3 +73,6 @@ body {
 @import "catalog";
 @import "advantages";
 @import "news-preview";
+@import "slider";
+@import "join";
+@import "footer";

@@ -1,0 +1,41 @@
+.page {
+	&__join {
+	}
+}
+.join {
+	padding: 32px;
+	&__container {
+		text-align: center;
+	}
+
+	&__title {
+		font-family: $Roboto;
+		font-size: 50px;
+		line-height: 144%;
+		text-transform: uppercase;
+		margin-bottom: 14px;
+	}
+
+	&__text {
+		font-family: $Roboto;
+		font-size: 31px;
+		line-height: 142%;
+		margin-bottom: 17px;
+	}
+
+	&__btn {
+		font-family: $Roboto;
+		font-size: 17px;
+		line-height: 424%;
+		display: flex;
+		max-width: 480px;
+		margin: 0 auto;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid #000000;
+		border-radius: 10px;
+		text-align: center;
+		padding: 0 138px;
+	}
+}
