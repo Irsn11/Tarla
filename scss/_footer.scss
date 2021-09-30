@@ -1,17 +1,27 @@
 .footer {
+	padding: 65px 0;
 	&__container {
-		padding: 65px 0;
 	}
-
-	&__row {
+	&__body {
 		display: flex;
 		justify-content: space-between;
 		align-items: start;
-		margin-bottom: 66px;
-		margin: 0 -15px;
+		margin: 0 -15px 66px -15px;
+	}
+	&__row {
+		flex: 0 1 78%;
+		display: flex;
+		justify-content: space-between;
+		align-items: start;
 	}
 
 	&__logo {
+		padding: 0 15px;
+		width: 170px;
+		height: 54px;
+		img {
+			width: 100%;
+		}
 	}
 
 	&__column {

@@ -15,8 +15,11 @@
 
 	&__logo {
 		margin: 16px 0px 16.22px;
-		width: 139, 16px;
-		height: 54, 02px;
+		width: 140px;
+		height: 54px;
+		img {
+			width: 100%;
+		}
 	}
 
 	&__menu {

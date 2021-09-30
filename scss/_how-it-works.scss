@@ -20,6 +20,7 @@
 
 	&__row {
 		display: flex;
+		flex-wrap: wrap;
 		margin: 0 -15px 42px -15px;
 	}
 
@@ -45,6 +46,8 @@
 
 	&__description {
 		line-height: 156%;
+		max-width: 324px;
+		margin: 0 auto;
 	}
 	&__btn {
 	}

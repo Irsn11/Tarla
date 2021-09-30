@@ -1,0 +1,179 @@
+@media (max-width: 1387px) {
+	.how-it-works {
+		&__column {
+			flex: 0 1 50%;
+			margin-bottom: 30px;
+		}
+		&__title {
+			margin-bottom: 54px;
+		}
+	}
+	.advertising {
+		&__text {
+			font-size: 34px;
+		}
+	}
+
+	.advantages {
+		&__row {
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+		&__column {
+			flex: 0 1 45%;
+			&:not(:last-child) {
+				margin-bottom: 30px;
+			}
+			&:last-child {
+				flex: 0 1 60%;
+			}
+		}
+	}
+	.news-preview {
+		&__decoration-bottom {
+			z-index: 0;
+		}
+		&__image {
+			z-index: 1;
+		}
+		&__column {
+			padding: 0 0;
+		}
+	}
+}
+@media (max-width: 1187px) {
+	.catalog {
+		&__column {
+			flex: 0 1 50%;
+		}
+	}
+	.footer {
+		&__body {
+			margin: 0 -15px 36px -15px;
+		}
+		&__row {
+			flex-wrap: wrap;
+		}
+		&__column {
+			flex: 0 1 50%;
+			margin-bottom: 30px;
+		}
+	}
+	.item-advantages {
+		&__value {
+			font-size: 48px;
+		}
+	}
+}
+@media (max-width: 991.98px) {
+	.advertising {
+		&__text {
+			font-size: 26px;
+		}
+	}
+	.header {
+		&__logo {
+			width: 98px;
+			height: 37px;
+		}
+	}
+	.footer {
+		&__logo {
+			width: 128px;
+			height: 37px;
+		}
+	}
+	.hero {
+		&__title {
+			font-size: 65px;
+		}
+	}
+}
+@media (max-width: 940.99px) {
+	.item-advantages {
+		&__value {
+			font-size: 30px;
+		}
+	}
+	.news-preview__text {
+		font-size: 20px;
+	}
+}
+@media (max-width: 912.99px) {
+	.hero {
+		&__container {
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		&__content {
+			flex: 0 1 80%;
+			min-width: 80%;
+			align-items: center;
+			max-width: 444px;
+			padding-right: 0px;
+			text-align: center;
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+		&__title {
+		}
+		&__image {
+			flex: 0 1 80%;
+		}
+	}
+	.item-advantages {
+		&__value {
+			font-size: 30px;
+		}
+	}
+	.news-preview {
+		&__text {
+			font-size: 18px;
+		}
+	}
+}
+
+@media (max-width: 769.99px) {
+	.how-it-works {
+		padding: 32px 0px;
+	}
+	.advertising {
+		padding: 32px 0;
+	}
+	.advertising {
+		&__container {
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+		&__body {
+			padding-left: 0px;
+			align-items: center;
+			text-align: center;
+		}
+
+		&__image {
+			margin-bottom: 30px;
+		}
+	}
+	.page__catalog {
+		padding: 32px 0 32px 0;
+	}
+	.advantages {
+		&__column {
+			flex: 0 1 100%;
+
+			&:last-child {
+				flex: 0 1 100%;
+			}
+		}
+	}
+	.news-preview__body {
+		flex-wrap: wrap;
+	}
+	.news-preview__content {
+		max-width: 100%;
+		flex: 0 1 100%;
+	}
+}
