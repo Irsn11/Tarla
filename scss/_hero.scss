@@ -3,6 +3,7 @@
 	}
 }
 .hero {
+	border-top: 1px solid #000;
 	background: #ffc3a0;
 	&__container {
 		display: flex;
@@ -44,5 +45,23 @@
 		border-radius: 20px;
 		padding-bottom: 50%;
 		overflow: hidden;
+	}
+	.hero {
+		&__arrow {
+			position: absolute;
+			height: 36px;
+			width: 54px;
+			bottom: 26px;
+			border: 1px solid #000;
+			z-index: 10;
+		}
+	}
+	.arrow-left {
+		right: 75px;
+		background: url("../img/hero/arrow-left.svg") 50% no-repeat;
+	}
+	.arrow-right {
+		right: 16px;
+		background: url("../img/hero/arrow.svg") 50% no-repeat;
 	}
 }

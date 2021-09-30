@@ -26,9 +26,17 @@
 
 	&__item {
 		padding-bottom: 100%;
+		overflow: hidden;
+
 		img {
 			border-radius: 20px;
 			overflow: hidden;
+			transition: transform 0.8s;
+		}
+		&:hover {
+			img {
+				transform: scale(1.5);
+			}
 		}
 	}
 }
