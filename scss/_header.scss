@@ -36,14 +36,29 @@
 	}
 
 	&__log-in {
-		padding-top: 40px;
-		background: url("../img/icons/log-in.svg") top center no-repeat;
+		text-align: center;
+		line-height: 130%;
+		&:before {
+			content: "";
+			display: block;
+			width: 40px;
+			height: 40px;
+			margin: 0 auto;
+			background: url("../img/icons/log-in.svg") center center/ contain no-repeat;
+		}
 	}
 
 	&__cart {
-		padding-top: 40px;
-		background: url("../img/icons/cart.svg") top center no-repeat;
-		cursor: pointer;
+		text-align: center;
+		line-height: 130%;
+		&:before {
+			content: "";
+			display: block;
+			width: 40px;
+			height: 40px;
+			margin: 0 auto;
+			background: url("../img/icons/cart.svg") top center / contain no-repeat;
+		}
 	}
 }
 
